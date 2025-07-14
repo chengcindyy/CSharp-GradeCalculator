@@ -1,7 +1,7 @@
 # Build results
-bin/
-obj/
-out/
+**/bin/
+**/obj/
+**/out/
 
 # User-specific files
 *.user
@@ -12,6 +12,26 @@ out/
 # VS Code settings
 .vscode/
 
-# Others
+# Rider / JetBrains
+.idea/
+
+# Logs
 *.log
-*.DS_Store
+
+# MacOS
+.DS_Store
+
+# Windows thumbnails
+Thumbs.db
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Backup files
+*.bak
+*.tmp
+
+# Screenshots or output images (optional, if generated at runtime)
+*.png
+!Screenshot.png
